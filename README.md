@@ -1,20 +1,62 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+  # 🌟 Krishna N Mehta — Portfolio
+
+  <p align="center">
+    <strong>Full-stack Software Engineer at Visa & GDG Cloud Bengaluru Organizer</strong>
+  </p>
+
+  <p align="center">
+    <a href="https://your-portfolio-deployed-link.com"><strong>🚀 View Deployed Site (Live Demo)</strong></a>
+  </p>
+
+  ---
 </div>
 
-# Run and deploy your AI Studio app
+Welcome to my professional developer portfolio! This repository showcases my engineering journey, community contributions, and technical projects.
 
-This contains everything you need to run your app locally.
+## 🧑‍💻 About Me
 
-View your app in AI Studio: https://ai.studio/apps/5eb0eedc-29b4-4a80-8153-1ae910f47ee2
+I bridge the gap between complex backend architectures and delightful user experiences. 
+- 🚀 **Software Engineer at Visa**: Enhancing automated workflows and job scheduling platforms.
+- ☁️ **GDG Cloud Bengaluru Co-organiser**: Fostering and growing India's cloud developer community.
+- ⚡ **Tech Stack**: Go, Python, TypeScript, React, Angular, Docker, FastAPI, PostgreSQL.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack & Skills
 
+- **Languages:** Go, Python, TypeScript, JavaScript
+- **Frontend:** React, Angular, Tailwind CSS, Motion (Framer Motion)
+- **Backend & Cloud:** FastAPI, PostgreSQL, Docker, Cloud-Native Architectures
+- **Interests:** Developer Relations (DevRel), Technical Advocacy, API Design
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🚀 Featured Projects
+
+*   **Debrief:** AI productivity assistant utilizing ElevenLabs and Cursor to enable conversational workflows and intelligent task summarization.
+*   **LLM WatchTower:** A real-time web application tracking frontier AI updates (Google Gemini, OpenAI, Claude) using Anakin AI APIs.
+*   **Bal Asha:** Adoption dashboard built for an NGO to manage data, visualize impact metrics, and track orphanage adoptions.
+
+---
+
+## 💻 Local Development
+
+Get the portfolio running on your local machine:
+
+1. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Run the Dev Server:**
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:3000` to view the portfolio.
+
+3. **Build for Production:**
+   ```bash
+   npm run build
+   ```
