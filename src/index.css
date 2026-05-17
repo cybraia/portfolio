@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-display: "Bricolage Grotesque", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#FBF9F4] text-[#1A1A1A] font-sans antialiased overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .section-container {
+    @apply max-w-6xl mx-auto px-10 md:px-20 py-20 md:py-32;
+  }
+
+  .big-text {
+    @apply font-display font-black tracking-[-0.04em] leading-[0.9];
+  }
+
+  .glass {
+    @apply bg-white/40 backdrop-blur-xl border border-white/40 transition-all duration-500;
+  }
+  
+  .card-hover {
+    @apply hover:-translate-y-2 hover:shadow-2xl transition-all duration-500;
+  }
+
+  .floating {
+    animation: floating 3s ease-in-out infinite;
+  }
+}
+
+@keyframes floating {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(1deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+/* Custom Hide Scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
